@@ -1,0 +1,16 @@
+{
+  "itemGroup.voa": "Example Mod Tab",
+  "block.voa.example_block": "Example Block",
+  "item.voa.ederium_ingot": "Ederium Ingot",
+  "item.voa.raw_ederium": "Raw Ederium",
+  "block.voa.block_ederium": "Ederium Block",
+  "creativetab.voa.ederium_items": "Ederium Items",
+
+  "voa.configuration.title": "Veil of Aetheria Configs",
+  "voa.configuration.section.voa.common.toml": "Veil of Aetheria Configs",
+  "voa.configuration.section.voa.common.toml.title": "Veil of Aetheria Configs",
+  "voa.configuration.items": "Item List",
+  "voa.configuration.logDirtBlock": "Log Dirt Block",
+  "voa.configuration.magicNumberIntroduction": "Magic Number Text",
+  "voa.configuration.magicNumber": "Magic Number"
+}
