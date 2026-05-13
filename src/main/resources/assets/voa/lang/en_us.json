@@ -3,7 +3,8 @@
   "block.voa.example_block": "Example Block",
   "item.voa.ederium_ingot": "Ederium Ingot",
   "item.voa.raw_ederium": "Raw Ederium",
-  "block.voa.block_ederium": "Ederium Block",
+  "block.voa.ederium_block": "Ederium Block",
+  "block.voa.ederium_ore": "Ederium Ore",
   "creativetab.voa.ederium_items": "Ederium Items",
 
   "voa.configuration.title": "Veil of Aetheria Configs",

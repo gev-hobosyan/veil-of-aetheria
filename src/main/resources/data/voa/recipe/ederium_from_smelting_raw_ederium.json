@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "ederium",
+  "ingredient": {
+    "item": "voa:raw_ederium"
+  },
+  "result": {
+    "count": 1,
+    "id": "voa:ederium_ingot"
+  }
+}
