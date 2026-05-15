@@ -1,17 +1,13 @@
 {
-  "itemGroup.voa": "Example Mod Tab",
-  "block.voa.example_block": "Example Block",
   "item.voa.ederium_ingot": "Ederium Ingot",
   "item.voa.raw_ederium": "Raw Ederium",
+  "item.voa.magic_staff": "Magical Staff",
+  "item.voa.ederium_pickaxe": "Ederium Pickaxe",
+
   "block.voa.ederium_block": "Ederium Block",
   "block.voa.ederium_ore": "Ederium Ore",
-  "creativetab.voa.ederium_items": "Ederium Items",
+  "block.voa.strange_block": "Strange Block",
 
-  "voa.configuration.title": "Veil of Aetheria Configs",
-  "voa.configuration.section.voa.common.toml": "Veil of Aetheria Configs",
-  "voa.configuration.section.voa.common.toml.title": "Veil of Aetheria Configs",
-  "voa.configuration.items": "Item List",
-  "voa.configuration.logDirtBlock": "Log Dirt Block",
-  "voa.configuration.magicNumberIntroduction": "Magic Number Text",
-  "voa.configuration.magicNumber": "Magic Number"
+  "creativetab.voa.ederium_items": "Ederium Items",
+  "tooltip.voa.items.magic_staff": "§6Click on any ore to turn it into deepslate variant"
 }

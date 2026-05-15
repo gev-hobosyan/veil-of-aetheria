@@ -11,6 +11,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import org.argo.voa.VeilofAetheria;
+import org.argo.voa.block.custom.StrangeBlock;
 import org.argo.voa.item.ModItems;
 
 import java.util.function.Supplier;
@@ -23,6 +24,10 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops().sound(SoundType.METAL)));
     public static final DeferredBlock<Block> EDERIUM_ORE = registerBlock("ederium_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 4), BlockBehaviour.Properties.of().strength(4f)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> STRANGE_BLOCK = registerBlock("strange_block",
+            () -> new StrangeBlock(BlockBehaviour.Properties.of().strength(4f)
                     .requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

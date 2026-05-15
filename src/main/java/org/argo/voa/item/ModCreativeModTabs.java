@@ -22,7 +22,9 @@ public class ModCreativeModTabs {
                             .displayItems((itemDisplayParametrs, output) -> {
                                 output.accept(ModItems.RAW_EDERIUM);
                                 output.accept(ModItems.EDRIUM_INGOT);
+                                output.accept(ModItems.MAGIC_STAFF);
 
+                                output.accept(ModBlocks.STRANGE_BLOCK);
                                 output.accept(ModBlocks.EDERIUM_BLOCK);
                                 output.accept(ModBlocks.EDERIUM_ORE);
                             })
